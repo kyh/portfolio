@@ -1,0 +1,12 @@
+@media screen and (max-width: 640px) {
+  #menu-list{
+    top: 20px;
+    width: 280px;
+    margin-left: 20px;
+  }
+
+  #main-menu.menu-open {
+    -webkit-transform: translateX(-320px);
+    transform: translateX(-320px);
+  }
+}

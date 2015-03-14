@@ -1,0 +1,42 @@
+# Site settings
+title:       Kaiyu's Site
+email:       im.kaiyu@gmail.com
+author:      Kaiyu
+description: "Kaiyu Hsu is an interdisciplinary Designer and Front End Engineer experienced in Interaction Design, Art Direction, 			Branding and UI/UX."
+baseurl:     ""
+url:         "localhost:4000"
+
+# Portfolio
+collections:
+  portfolio:
+    output: true
+    permalink: /work/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# Google analytics
+google_analytics:
+
+# Optional features
+show_related_posts: false
+show_post_footers:  false
+
+# Social icons
+show_social_icons: false
+github_username:
+stackoverflow_id:
+twitter_username:
+google_plus_id:
+linkedin_username:
+bitcoin_url:
+paypal_url:
+flattr_button:
+
+# Build settings
+markdown:     redcarpet
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+sass:
+  compressed: true
