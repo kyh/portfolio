@@ -1,7 +1,7 @@
 $gray:        #44444a;
 $gray-light:  #99999a;
 
-header.header {
+nav.menu-icon-wrapper {
   position: absolute;
   right: 90px;
   top: 45px;
@@ -66,10 +66,12 @@ header.header {
   transition: all 400ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
 
   -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
   transform: translateX(0);
 
   &.menu-open {
     -webkit-transform: translateX(-400px);
+    -moz-transform: translateX(-400px);
     transform: translateX(-400px);
 
     // .menu-list-container li {

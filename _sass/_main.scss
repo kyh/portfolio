@@ -37,8 +37,14 @@ body {
   background-color:#f7f7f7;
   -webkit-font-smoothing:antialiased;
   -moz-font-smoothing:antialiased;
-  font: 16px/22px "Merriwather", serif;
+  text-rendering: optimizeLegibility;
+  font: 16px/22px Tiempos, Georgia, Times, serif;
   color: #32323c;
+
+  #page {
+    height: 100%;
+  }
+
 }
 
 .no-scroll {
@@ -47,6 +53,42 @@ body {
 
 .clearfix{
   @include clearfix();
+}
+
+main {
+  min-height: 100%;
+}
+
+.title {
+  background-color: #333;
+  padding: 0.5em 3em 2em;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  
+  h1, p {
+    width: 100%;
+    max-width: 50rem;
+  }
+
+  h1 {
+    font: 5.6rem/1 Tiempos, Georgia, serif;
+    -webkit-font-smoothing: antialiased;
+    margin: 0.7em auto 0.8em;
+    color: #fff;
+    span {
+      color: rgba(255,255,255,0.2);
+    }
+  }
+
+  p {
+    font: italic 18px/29px Tiempos, Georgia, serif;
+    color: #777;
+    margin: 1.2em auto;
+  }
 }
 
 h1,
@@ -77,7 +119,8 @@ img {
 }
 
 .site-wrap {
-  min-height: 100%;
+  height: 100%;
+  position: relative;
   -webkit-transition: all 400ms cubic-bezier(0.645, 0.045, 0.355, 1.000); 
   -moz-transition: all 400ms cubic-bezier(0.645, 0.045, 0.355, 1.000); 
   -o-transition: all 400ms cubic-bezier(0.645, 0.045, 0.355, 1.000); 
@@ -86,6 +129,7 @@ img {
 
   &.menu-in {
     -webkit-transform: translateX(-100px);
+    -moz-transform: translateX(-100px);
     transform: translateX(-100px);
   }
   &:after {
@@ -99,33 +143,6 @@ img {
   width:100%;
   margin-right:auto;
   margin-left:auto;
-}
-
-.page-template {
-  max-width: 1120px;
-  margin: 0 auto;
-  padding: 150px 30px 50px;
-
-  h1 {
-    font-size: 40px;
-    margin-bottom: 50px;
-  }
-
-  .intro {
-    width: 70%;
-    max-width: 800px;
-    h3 {
-      margin-bottom: 55px;
-      padding-top: 65px;
-      font-size: 30px;
-      line-height: 45px;
-    }
-    p {
-      font-size: 18px;
-      line-height: 35px;
-      margin: 0;
-    }
-  }
 }
 
 .sheep-container{
@@ -238,158 +255,3 @@ img {
     }
   }
 }
-
-// .post-content {
-//   background: #f3f4f8;
-// }
-
-// .header {
-//   position:relative;
-//   z-index:5;
-//   background-color:#fff;
-//   -webkit-backface-visibility:hidden;
-//   -webkit-transform:translate3d(0,0,0);
-//   -moz-transform:translate3d(0,0,0);
-//   transform:translate3d(0,0,0);
-//   padding:15% 100px 58px;
-
-//   .header--inner {
-//     position:absolute;
-//     z-index:4;
-//     top:65px;
-//     left:0;
-//     width:100%;
-//     height:78px;
-//     -webkit-transition:opacity .3s ease-in;
-//     -moz-transition:opacity .3s ease-in;
-//     -o-transition:opacity .3s ease-in;
-//     transition:opacity .3s ease-in;
-//     -webkit-transform:translateZ(0);
-//     -moz-transform:translateZ(0);
-//     -ms-transform:translateZ(0);
-//     -o-transform:translateZ(0);
-//     transform:translateZ(0);
-//     padding:10px 100px;
-//   }
-
-//   .inner {
-//     h2 {
-//       margin-bottom:50px;
-//       font-size:38px;
-//     }
-//     h3.intro_margin_top {
-//       padding-top:65px;
-//     }
-//     .header p.in_header {
-//       margin-bottom:27px;
-//     }
-//   }
-// }
-
-
-// .button-disabled {
-//   opacity: 0.55;
-//   background-color: #999;
-// }
-
-// .button-disabled:hover,
-// .button-disabled:active,
-// .button-disabled:focus {
-//   cursor: not-allowed;
-//   background-color: #999;
-// }
-
-// @media screen and (min-width: 48em) {
-//   .h1,
-//   h1 {
-//     font-size: 3.250rem;
-//   }
-
-//   .h2,
-//   h2 {
-//     font-size: 2.298rem;
-//   }
-
-//   .h3,
-//   h3 {
-//     font-size: 1.625rem;
-//   }
-
-//   .h4,
-//   h4 {
-//     font-size: 1.150rem;
-//   }
-
-//   .p,
-//   p,
-//   li {
-//     font-size: 1.25rem;
-//     line-height: 1.8;
-//   }
-
-//   .small {
-//     font-size: 1rem;
-//   }
-
-//   table {
-//     font-size: 1.25rem;
-//   }
-// }
-
-// @media screen and (max-width: 48em) {
-//   blockquote {
-//     margin-left: 1rem;
-//     margin-right: 0;
-//     padding: 0.5em;
-//   }
-
-//   .h1,
-//   h1 {
-//     font-size: 2.827rem;
-//   }
-
-//   .h2,
-//   h2 {
-//     font-size: 1.999rem;
-//   }
-
-//   .h3,
-//   h3 {
-//     font-size: 1.413rem;
-//   }
-
-//   .h4,
-//   h4 {
-//     font-size: 1rem;
-//   }
-
-//   .site-header {
-//     text-align: center;
-//   }
-
-//   .site-header .site-title {
-//     float: center;
-//   }
-// }
-
-// @media screen and (min-width: 64em) {
-//   .h1,
-//   h1 {
-//     font-size: 4.498rem;
-//   }
-
-//   .h2,
-//   h2 {
-//     font-size: 3.18rem;
-//   }
-
-//   .h3,
-//   h3 {
-//     font-size: 2.249rem;
-//   }
-
-//   .h4,
-//   h4 {
-//     font-size: 1.591rem;
-//   }
-// }

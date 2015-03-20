@@ -14,10 +14,10 @@ layout: default
 <span class="post-meta small">{{ minutes }} minute read</span> -->
 
 <!-- <img src="/images/post.jpg" alt="" style="width:100%;position:absolute;top:0;left:0;opacity:0.8;"> -->
-<section class="main-content" 
+<main class="main-content" 
   {% if page.bg %}style="background-image:url('/images/{{page.bg}}')"{% endif %}
   {% if page.bg-color %}style="background:{{page.bg-color}}"{% endif %}>
-  <div class="post-header-container {{ page.header-class }}">
+  <header class="post-header-container {{ page.header-class }}">
     <div class="home-btn">
       <a class="menu-link" href="/">home</a>
     </div>
@@ -31,8 +31,8 @@ layout: default
       {% endif %}
       </div>
     </div>
-  </div>
-  <div class="post-content-container animated fade-in-up-md">
+  </header>
+  <section class="post-content-container animated fade-in-up-md">
     {% if page.addon-bg %}
       <div  class="addon-bg" 
             style=" background-image:url('/images/addons/{{page.addon-bg}}');
@@ -49,7 +49,7 @@ layout: default
 
       {{ content }}
     </article>
-  </div>
+  </section>
 
   {% if site.show_post_footers %}
     {% include post_footer.html %}
@@ -66,4 +66,4 @@ layout: default
       </div>
     {% endfor %}
   {% endif %}
-</section>
+</main>
