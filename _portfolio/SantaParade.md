@@ -1,11 +1,11 @@
 ---
-layout:     post
-title:      Santa Clause Parade
-date:       2014-06-08 11:21:29
-summary:    Lake Baikal is the freshwater lake wuth the greatest volume in the world, containing roughly 20% of the world's 				unfrozen surface fresh water, and at 1,642 m, the deepest.
-
+layout:     	post
+title:      	Santa Clause Parade
+date:       	2014-06-08 11:21:29
+summary:    	Lake Baikal is the freshwater lake wuth the greatest volume in the world, containing roughly 20% of the world's 				unfrozen surface fresh water, and at 1,642 m, the deepest.
+main-bg:		header.jpg
 header-class:	white
-bg:				header.jpg
+header-bg:		header.jpg
 tags:			[travel, books]
 ---
 

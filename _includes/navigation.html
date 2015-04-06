@@ -4,7 +4,7 @@
 	<div class="menu-list">
 		<div class="menu-list-container">
 			<p class="menu-title">Work</p>
-			<ul>
+			<ul class="work">
 				{% for post in portfolio_posts reversed %}
 					<li>
 						<a class="menu-link" href="{{ post.url }}">{{ post.title }}</a>
@@ -14,12 +14,15 @@
 		</div>
 		<div class="menu-list-container">
 			<p class="menu-title">Projects</p>
-			<ul>
+			<ul class="projects">
 				{% for post in project_posts reversed %}
 					<li>
 						<a class="menu-link" href="{{ post.url }}">{{ post.title }}</a>
 					</li>
 				{% endfor %}
+				<li>
+					<a class="menu-link" href="#">See All</a>
+				</li>
 			</ul>
 		</div>
 	</div>
