@@ -11,9 +11,14 @@ ga('send', 'pageview');
 </script>
 {% endif %}
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/three.js/r71/three.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
-<script src="{{ "/js/lib/jquery.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/lib/jquery.smoothState.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/square.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
+{% minibundle js %}
+source_dir: js
+destination_path: js
+assets:
+  - three
+  - tweenMax
+  - jquery
+  - smoothState
+  - main
+  - square
+{% endminibundle %}
