@@ -25,21 +25,16 @@ nav.menu-icon-wrapper {
     width:100%;
     height:2px;
     background-color:#32323c;
-    -webkit-transition:all .3s ease-in;
-    -moz-transition:all .3s ease-in;
-    -o-transition:all .3s ease-in;
     transition:all .3s ease-in;
 
     &:nth-child(2) {
       -webkit-transform:translate3d(0,6px,0);
-      -moz-transform:translate3d(0,6px,0);
       transform:translate3d(0,6px,0);
     }
 
     &:nth-child(3) {
       width:50%;
       -webkit-transform:translate3d(0,12px,0);
-      -moz-transform:translate3d(0,12px,0);
       transform:translate3d(0,12px,0);
     }
   }
@@ -60,25 +55,19 @@ nav.menu-icon-wrapper {
   overflow: auto;
   padding: 45px 0;
 
-  -webkit-transition: all 400ms cubic-bezier(0.645, 0.045, 0.355, 1.000); 
-  -moz-transition: all 400ms cubic-bezier(0.645, 0.045, 0.355, 1.000); 
-  -o-transition: all 400ms cubic-bezier(0.645, 0.045, 0.355, 1.000); 
+  will-change: transform; 
   transition: all 400ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
 
   -webkit-transform: translateX(0);
-  -moz-transform: translateX(0);
   transform: translateX(0);
 
   &.menu-open {
     -webkit-transform: translateX(-400px);
-    -moz-transform: translateX(-400px);
     transform: translateX(-400px);
 
     // .menu-list-container li {
     //   @for $i from 1 through 10 {
-    //     &:nth-child(#{$i}) { 
-    //       -moz-animation-delay: 0.33s * $i;
-    //       -o-animation-delay: 0.33s * $i;
+    //     &:nth-child(#{$i}) {
     //       -webkit-animation-delay: 0.33s * $i;
     //       animation-delay: 0.33s * $i;
     //     }
@@ -128,11 +117,7 @@ nav.menu-icon-wrapper {
       a {
         margin-right: 5px;
         color: $gray-light;
-        text-decoration: none;
-
-        -webkit-transition: all 300ms ease-in-out; 
-        -moz-transition: all 300ms ease-in-out; 
-        -o-transition: all 300ms ease-in-out; 
+        text-decoration: none; 
         transition: all 300ms ease-in-out;
 
         &.git:hover {

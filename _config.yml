@@ -37,9 +37,3 @@ permalink:    pretty
 
 sass:
   style: compressed
-
-gems: ['jekyll/minibundle']
-
-minibundle:
-  minifier_commands:
-    js: ./node_modules/.bin/uglifyjs -

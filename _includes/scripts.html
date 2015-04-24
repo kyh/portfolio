@@ -11,14 +11,11 @@ ga('send', 'pageview');
 </script>
 {% endif %}
 
-{% minibundle js %}
-source_dir: js
-destination_path: js
-assets:
-  - three
-  - tweenMax
-  - jquery
-  - smoothState
-  - main
-  - square
-{% endminibundle %}
+<!-- <script src="{{ "/js/lib/jquery.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/lib/state.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/lib/three.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/lib/tweenMax.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/lib/square.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/lib/main.js" | prepend: site.baseurl }}"></script> -->
+
+<script src="{{ "/js/app.min.js" | prepend: site.baseurl }}" async></script>
