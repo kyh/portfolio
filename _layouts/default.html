@@ -2,17 +2,17 @@
 <html>
 {% include head.html %}
 <body>
-	<div id="white-fade" class="fade fade-out display-hide" aria-hidden="true"></div>
-	<div id="black-fade" class="fade display-hide" aria-hidden="true">
-		{% include fade-background.html %}
-	</div>
-	<div id="page">
-		{% include navigation.html %}
-	  	<section class="site-wrap">
-			{% include header.html %}
-	    	{{ content }}
-		</section>
-	</div>
-	{% include scripts.html %}
+    <div id="white-fade" class="fade fade-out display-hide" aria-hidden="true"></div>
+    <div id="black-fade" class="fade display-hide" aria-hidden="true">
+        {% include fade-background.html %}
+    </div>
+    <div id="page">
+        {% include navigation.html %}
+        <section class="site-wrap">
+            {% include header.html %}
+            {{ content }}
+        </section>
+    </div>
+    {% include scripts.html %}
 </body>
 </html>

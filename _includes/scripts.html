@@ -11,11 +11,42 @@ ga('send', 'pageview');
 </script>
 {% endif %}
 
-<!-- <script src="{{ "/js/lib/jquery.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/lib/state.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/lib/three.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/lib/tweenMax.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/lib/square.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/lib/main.js" | prepend: site.baseurl }}"></script> -->
+<script src="{{ "/js/lib/site/jquery.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/lib/site/state.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/lib/site/main.js" | prepend: site.baseurl }}"></script>
 
-<script src="{{ "/js/app.min.js" | prepend: site.baseurl }}" async></script>
+<!-- <script src="{{ "/js/app.min.js" | prepend: site.baseurl }}" async></script> -->
+<!-- <script>
+    function launchSquare(){
+      var element = document.getElementById('render');
+      if (element) {
+        var squareGif = new Gif(element);
+        squareGif.init()(function(el){
+          el.classList.add('fade-in');
+        });
+      }
+    }
+
+    function isMobile(){
+        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    (function(){
+        if (!isMobile()) {
+            var script = document.createElement('script');
+            script.src = '{{ "/js/cube.min.js" | prepend: site.baseurl }}';
+            document.head.appendChild(script);
+            script.onload = function(){
+                launchSquare();
+            };
+        }
+    })();
+</script> -->
+
+<script>
+    function launchSquare(){var a=document.getElementById("render");if(a){var b=new Gif(a);b.init()(function(a){a.classList.add("fade-in")})}}function isMobile(){return/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)?!0:!1}!function(){if(!isMobile()){var a=document.createElement("script");a.src='{{ "/js/cube.min.js" | prepend: site.baseurl }}',document.head.appendChild(a),a.onload=function(){launchSquare()}}}();
+</script>

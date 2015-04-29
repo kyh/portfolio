@@ -1,7 +1,7 @@
 {% assign portfolio_posts = site.portfolio | sort: 'date' %}
 
 {% for post in portfolio_posts reversed %}
-	{% if post.main-bg %}
-		<div data-title="{{post.title}}" class="fade-bg" style="background-image: url('/images/{{post.main-bg}}')"></div>
-	{% endif %}
+    {% if post.main-bg %}
+        <div data-title="{{post.title}}" class="fade-bg" style="background-image: url('/images/{{post.main-bg}}')"></div>
+    {% endif %}
 {% endfor %}

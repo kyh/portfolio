@@ -64,15 +64,6 @@ nav.menu-icon-wrapper {
   &.menu-open {
     -webkit-transform: translateX(-400px);
     transform: translateX(-400px);
-
-    // .menu-list-container li {
-    //   @for $i from 1 through 10 {
-    //     &:nth-child(#{$i}) {
-    //       -webkit-animation-delay: 0.33s * $i;
-    //       animation-delay: 0.33s * $i;
-    //     }
-    //   }
-    // }
   }
 
   .menu-list{
