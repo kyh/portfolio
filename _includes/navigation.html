@@ -7,7 +7,7 @@
             <ul class="work">
                 {% for post in portfolio_posts reversed %}
                     <li>
-                        <a class="menu-link" href="{{ post.url }}">{{ post.title }}</a>
+                        <a class="menu-link" href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a>
                     </li>
                 {% endfor %}
             </ul>
@@ -17,7 +17,7 @@
             <ul class="projects">
                 {% for post in project_posts reversed %}
                     <li>
-                        <a class="menu-link" href="{{ post.url }}">{{ post.title }}</a>
+                        <a class="menu-link" href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a>
                     </li>
                 {% endfor %}
             </ul>
@@ -30,6 +30,9 @@
             </a>
             <a class="dribbble" href="https://dribbble.com/tehKaiyu" target="_blank">
                 <i class="icon-dribbble"></i>
+            </a>
+            <a class="twitter" href="https://twitter.com/tehKaiyu" target="_blank">
+                <i class="icon-twitter"></i>
             </a>
             <a class="linkedin" href="http://ca.linkedin.com/in/kaiyuhsu" target="_blank">
                 <i class="icon-linkedin"></i>

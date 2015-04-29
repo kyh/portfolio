@@ -3,8 +3,8 @@
   <channel>
     <title>Kaiyu&#39;s Site</title>
     <description>Kaiyu Hsu is an interdisciplinary Designer and Front End Engineer experienced in Interaction Design, Art Direction, 			Branding and UI/UX.</description>
-    <link>localhost:4000/</link>
-    <atom:link href="localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <link>kaiyu.rocks/portfolio-jekyll/</link>
+    <atom:link href="kaiyu.rocks/portfolio-jekyll/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Santa Clause Parade</title>
@@ -13,8 +13,8 @@
 &lt;p&gt;In total there are less than 60 native fish species in the lake, but more than half of these are endemic.[19] The families Abyssocottidae (deep-water sculpins), Comephoridae (golomyankas or Baikal oilfish) and Cottocomephoridae (Baikal sculpins), and the subfamily Cottinae (part of the cottid family) are entirely restricted to the lake basin.&lt;/p&gt;
 </description>
         <pubDate>Sun, 08 Jun 2014 07:21:29 -0400</pubDate>
-        <link>localhost:4000/work/SantaParade/</link>
-        <guid isPermaLink="true">localhost:4000/work/SantaParade/</guid>
+        <link>kaiyu.rocks/portfolio-jekyll/work/SantaParade/</link>
+        <guid isPermaLink="true">kaiyu.rocks/portfolio-jekyll/work/SantaParade/</guid>
       </item>
     
       <item>
@@ -60,16 +60,9 @@ They also heavily rely on the awesome utility, &lt;a href=&quot;http://www.bassc
 &lt;li&gt;Dance&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;images-look-great,-too&quot;&gt;Images look great, too&lt;/h3&gt;
+&lt;h3 id=&quot;images-look-great&quot;&gt;Images look great&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/1424573/3378137/abac6d7c-fbe6-11e3-8e09-55745b6a8176.png&quot; alt=&quot;desk&quot;&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;there-are-also-pretty-colors&quot;&gt;There are also pretty colors&lt;/h3&gt;
-
-&lt;p&gt;Also the result of &lt;a href=&quot;http://www.basscss.com/&quot;&gt;BASSCSS&lt;/a&gt;, you can &lt;span class=&quot;bg-dark-gray white&quot;&gt;highlight&lt;/span&gt; certain components
-of a &lt;span class=&quot;red&quot;&gt;post&lt;/span&gt; &lt;span class=&quot;mid-gray&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;green&quot;&gt;CSS&lt;/span&gt; &lt;span class=&quot;orange&quot;&gt;classes&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;I don&amp;rsquo;t recommend using blue, though. It looks like a &lt;span class=&quot;blue&quot;&gt;link&lt;/span&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;stylish-blockquotes-included&quot;&gt;Stylish blockquotes included&lt;/h3&gt;
 
@@ -91,14 +84,11 @@ hopefully sidestep this inconvenience.&lt;/p&gt;
 
 &lt;h3 id=&quot;there&amp;#39;s-more-being-added-all-the-time&quot;&gt;There&amp;rsquo;s more being added all the time&lt;/h3&gt;
 
-&lt;p&gt;Checkout the &lt;a href=&quot;https://github.com/johnotander/pixyll&quot;&gt;Github repository&lt;/a&gt; to request,
-or add, features.&lt;/p&gt;
-
-&lt;p&gt;Happy writing.&lt;/p&gt;
+&lt;p&gt;Stay Tuned.&lt;/p&gt;
 </description>
         <pubDate>Sat, 10 Jan 2015 07:31:19 -0500</pubDate>
-        <link>localhost:4000/work/Slyce/</link>
-        <guid isPermaLink="true">localhost:4000/work/Slyce/</guid>
+        <link>kaiyu.rocks/portfolio-jekyll/work/Slyce/</link>
+        <guid isPermaLink="true">kaiyu.rocks/portfolio-jekyll/work/Slyce/</guid>
       </item>
     
       <item>
@@ -110,16 +100,10 @@ or add, features.&lt;/p&gt;
 &lt;blockquote&gt;
     Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
 &lt;/blockquote&gt;
-
-&lt;h1 id=&quot;where-is-it?&quot;&gt;Where is it?&lt;/h1&gt;
-
-&lt;p&gt;Checkout the &lt;a href=&quot;https://github.com/johnotander/pixyll&quot;&gt;Github repository&lt;/a&gt; to download it, request a feature, or report a bug.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s free, and open source (&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;MIT&lt;/a&gt;).&lt;/p&gt;
 </description>
         <pubDate>Wed, 11 Jun 2014 11:31:19 -0400</pubDate>
-        <link>localhost:4000/work/TEDxToronto/</link>
-        <guid isPermaLink="true">localhost:4000/work/TEDxToronto/</guid>
+        <link>kaiyu.rocks/portfolio-jekyll/work/TEDxToronto/</link>
+        <guid isPermaLink="true">kaiyu.rocks/portfolio-jekyll/work/TEDxToronto/</guid>
       </item>
     
       <item>
@@ -135,8 +119,8 @@ and &lt;a href=&quot;http://en.wikipedia.org/wiki/Textile_(markup_language)&quot
 &lt;p&gt;Learn more about Jekyll on their &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;website&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 09 Jun 2014 08:32:18 -0400</pubDate>
-        <link>localhost:4000/work/TEDxUofT/</link>
-        <guid isPermaLink="true">localhost:4000/work/TEDxUofT/</guid>
+        <link>kaiyu.rocks/portfolio-jekyll/work/TEDxUofT/</link>
+        <guid isPermaLink="true">kaiyu.rocks/portfolio-jekyll/work/TEDxUofT/</guid>
       </item>
     
   </channel>

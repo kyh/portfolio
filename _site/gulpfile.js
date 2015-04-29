@@ -3,7 +3,7 @@ var uglify = require('gulp-uglify');
 var concat = require('gulp-concat');
 var rename = require('gulp-rename');
 
-gulp.task('compress-site', function() {
+gulp.task('compress-site-js', function() {
   return gulp.src('js/lib/site/*.js')
   	.pipe(concat('app.js'))
   	.pipe(rename({suffix: '.min'}))
@@ -11,7 +11,7 @@ gulp.task('compress-site', function() {
     .pipe(gulp.dest('js'));
 });
 
-gulp.task('compress-cube', function() {
+gulp.task('compress-cube-js', function() {
   return gulp.src('js/lib/cube/*.js')
   	.pipe(concat('cube.js'))
   	.pipe(rename({suffix: '.min'}))
@@ -19,4 +19,4 @@ gulp.task('compress-cube', function() {
     .pipe(gulp.dest('js'));
 });
 
-gulp.task('default', ['compress-site', 'compress-cube']);
+gulp.task('default', ['compress-site-js', 'compress-cube-js']);
