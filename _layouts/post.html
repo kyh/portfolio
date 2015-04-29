@@ -15,11 +15,11 @@ layout: default
 
 <!-- <img src="/images/post.jpg" alt="" style="width:100%;position:absolute;top:0;left:0;opacity:0.8;"> -->
 <main class="main-content" 
-  {% if page.header-bg %}style="background-image:url('/images/{{page.header-bg}}')"{% endif %}
+  {% if page.header-bg %}style="background-image:url('{{ site.baseurl }}/images/{{page.header-bg}}')"{% endif %}
   {% if page.bg-color %}style="background:{{page.bg-color}}"{% endif %}>
   <header class="post-header-container {{ page.header-class }}">
     <div class="home-btn">
-      <a class="menu-link" href="/">home</a>
+      <a class="menu-link" href="{{ site.baseurl }}">home</a>
     </div>
     <div class="post-header animated fade-in-up-sm">
       <h1>{{ page.title }}</h1>
@@ -35,7 +35,7 @@ layout: default
   <section class="post-content-container animated fade-in-up-md">
     {% if page.addon-bg %}
       <div  class="addon-bg" 
-            style=" background-image:url('/images/addons/{{page.addon-bg}}');
+            style=" background-image:url('{{ site.baseurl }}/images/addons/{{page.addon-bg}}');
                     bottom:{{page.addon-bg-bot}}px;
                     right:{{page.addon-bg-right}}px">
       </div>

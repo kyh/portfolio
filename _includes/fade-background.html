@@ -2,6 +2,6 @@
 
 {% for post in portfolio_posts reversed %}
     {% if post.main-bg %}
-        <div data-title="{{post.title}}" class="fade-bg" style="background-image: url('/images/{{post.main-bg}}')"></div>
+        <div data-title="{{post.title}}" class="fade-bg" style="background-image: url('{{ site.baseurl }}/images/{{post.main-bg}}')"></div>
     {% endif %}
 {% endfor %}
