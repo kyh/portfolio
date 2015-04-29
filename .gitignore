@@ -2,6 +2,7 @@
 .idea
 node_modules
 .DS_Store
+_site
 
 # Ignore the config file that's used for gh-pages.
 _config.gh-pages.yml
