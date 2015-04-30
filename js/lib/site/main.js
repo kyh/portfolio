@@ -1,8 +1,8 @@
 ;(function($) {
   'use strict';
 
-  var baseURL       = 'portfolio-jekyll';
-  var siteLocation  = location.origin || location.protocol + "//" + location.host + baseURL;
+  var baseURL       = '/portfolio-jekyll';
+  var siteLocation  = (location.origin || location.protocol + "//" + location.host) + baseURL;
   var transitionEnd = 'webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend';
   var menuOpen      = 0;
 
