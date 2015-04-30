@@ -1,5 +1,6 @@
 ---
 layout: default
+type: post
 ---
 
 {% assign minutes = content | number_of_words | divided_by: 180 %}
@@ -13,7 +14,6 @@ layout: default
 {% endif %}
 <span class="post-meta small">{{ minutes }} minute read</span> -->
 
-<!-- <img src="/images/post.jpg" alt="" style="width:100%;position:absolute;top:0;left:0;opacity:0.8;"> -->
 <main class="main-content" 
   {% if page.header-bg %}style="background-image:url('{{ site.baseurl }}/images/{{page.header-bg}}')"{% endif %}
   {% if page.bg-color %}style="background:{{page.bg-color}}"{% endif %}>
