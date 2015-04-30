@@ -18,5 +18,8 @@
     "sass",
     "browsersync"
   ],
-  "homepage": "http://kaiyu.rocks"
+  "homepage": "http://kaiyu.rocks",
+  "dependencies": {
+    "critical": "^0.5.7"
+  }
 }

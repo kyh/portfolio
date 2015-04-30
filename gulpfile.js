@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var uglify = require('gulp-uglify');
 var concat = require('gulp-concat');
 var rename = require('gulp-rename');
+var critical = require('critical');
 
 gulp.task('compress-site-js', function() {
   return gulp.src('js/lib/site/*.js')
