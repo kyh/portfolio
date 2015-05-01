@@ -71,6 +71,9 @@ body {
   color: #32323c;
   margin: 0;
 
+  overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
+
   #page {
     height: 100%;
   }
