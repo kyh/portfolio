@@ -23,6 +23,10 @@
     height: 50px;
     padding: 15px;
   }
+  
+  #main-menu {
+    padding: 25px 0;
+  }
 
   #main-menu.menu-open {
     -webkit-transform: translateX(-280px);
@@ -35,6 +39,10 @@
     .social-media a {
       padding: 14px;
     }
+  }
+
+  #main-menu .menu-list {
+    margin-bottom: 20px;
   }
 
   .menu-icon-wrapper {
