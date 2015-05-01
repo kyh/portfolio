@@ -5,8 +5,83 @@
     margin-left: 20px;
   }
 
-  #main-menu.menu-open {
-    -webkit-transform: translateX(-320px);
-    transform: translateX(-320px);
+  #render {
+    display: none;
   }
+
+  .title {
+    h1 {
+      margin-bottom: 0;
+    }
+    p {
+      margin: 0.5em auto;
+    }
+  }
+  
+  .menu-icon {
+    width: 55px;
+    height: 50px;
+    padding: 15px;
+  }
+
+  #main-menu.menu-open {
+    -webkit-transform: translateX(-280px);
+    transform: translateX(-280px);
+  }
+
+  #main-menu .menu-bottom {
+    margin-left: 25px;
+
+    .social-media a {
+      padding: 14px;
+    }
+  }
+
+  .menu-icon-wrapper {
+    right: 10px;
+    top: 10px;
+  }
+
+  .main-content {
+    .post-header {
+      padding: 30px;
+
+      h1 {
+        font-size: 2.7em;
+        letter-spacing: -2px;
+      }
+
+      .post-tag-container {
+        margin-bottom: 15px;
+      }
+    }
+
+    .post-header-container .home-btn {
+      top: 25px;
+      left: 10px;
+      right: initial;
+
+      a {
+        padding: 15px;
+      }
+    }
+
+    .post-content {
+      padding: 30px 25px 20px;
+
+      .post-summary {
+        margin-bottom: 20px;
+      }
+
+      p {
+        line-height: 2;
+      }
+
+      blockquote {
+        font-size: 1rem;
+        padding: 15px;
+      }
+    }
+  }
+
 }
