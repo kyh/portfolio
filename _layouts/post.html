@@ -14,10 +14,10 @@ type: post
 {% endif %}
 <span class="post-meta small">{{ minutes }} minute read</span> -->
 
-<main class="main-content" 
-  {% if page.header-bg %}style="background-image:url('{{ site.baseurl }}/images/{{page.header-bg}}')"{% endif %}
-  {% if page.bg-color %}style="background:{{page.bg-color}}"{% endif %}>
-  <header class="post-header-container {{ page.header-class }}">
+<main class="main-content">
+  <header class="post-header-container {{ page.header-class }}"
+    {% if page.header-bg %}style="background-image:url('{{ site.baseurl }}/images/{{page.header-bg}}')"{% endif %}
+    {% if page.bg-color %}style="background:{{page.bg-color}}"{% endif %}>
     <div class="home-btn">
       <a class="menu-link" href="{{ site.baseurl }}/">home</a>
     </div>
