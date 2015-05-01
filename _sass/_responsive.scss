@@ -11,7 +11,7 @@
 
   .title {
     h1 {
-      margin-bottom: 0;
+      margin-bottom: 15px;
     }
     p {
       margin: 0.5em auto;
@@ -42,45 +42,43 @@
     top: 10px;
   }
 
-  .main-content {
-    .post-header {
-      padding: 30px;
+  .post-header {
+    padding: 30px;
 
-      h1 {
-        font-size: 2.7em;
-        letter-spacing: -2px;
-      }
-
-      .post-tag-container {
-        margin-bottom: 15px;
-      }
+    h1 {
+      font-size: 2.7em;
+      letter-spacing: -2px;
     }
 
-    .post-header-container .home-btn {
-      top: 25px;
-      left: 10px;
-      right: initial;
+    .post-tag-container {
+      margin-bottom: 15px;
+    }
+  }
 
-      a {
-        padding: 15px;
-      }
+  .post-header-container .home-btn {
+    top: 25px;
+    left: 10px;
+    right: initial;
+
+    a {
+      padding: 15px;
+    }
+  }
+
+  .post-content {
+    padding: 30px 25px 20px;
+
+    .post-summary {
+      margin-bottom: 20px;
     }
 
-    .post-content {
-      padding: 30px 25px 20px;
+    p {
+      line-height: 2;
+    }
 
-      .post-summary {
-        margin-bottom: 20px;
-      }
-
-      p {
-        line-height: 2;
-      }
-
-      blockquote {
-        font-size: 1rem;
-        padding: 15px;
-      }
+    blockquote {
+      font-size: 1rem;
+      padding: 15px;
     }
   }
 
