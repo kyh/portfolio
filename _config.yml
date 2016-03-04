@@ -2,8 +2,8 @@
 title:       Kaiyu's Site
 email:       im.kaiyu@gmail.com
 author:      Kaiyu
-description: "Kaiyu Hsu is an interdisciplinary Designer and Front End Engineer experienced in Interaction Design, Art Direction, 			Branding and UI/UX."
-baseurl:     "/portfolio-jekyll"
+description: "Kaiyu Hsu is an interdisciplinary Designer and Front End Engineer experienced in Interaction Design, Art Direction, Branding and UI/UX."
+baseurl:     "/portfolio"
 url:         "kaiyu.rocks"
 
 # Portfolio
