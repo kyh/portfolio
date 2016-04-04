@@ -16,7 +16,7 @@ type: post
 
 <main class="main-content">
   <header class="post-header-container {{ page.header-class }}"
-    {% if page.header-bg %}style="background-image:url('{{ site.baseurl }}/images/{{page.header-bg}}')"{% endif %}
+    {% if page.header-bg %}style="background-image:url('{{ site.baseurl }}/images/{{ page.header-bg }}')"{% endif %}
     {% if page.bg-color %}style="background:{{page.bg-color}}"{% endif %}>
     <div class="home-btn">
       <a class="menu-link" href="{{ site.baseurl }}/">home</a>
@@ -34,8 +34,8 @@ type: post
   </header>
   <section class="post-content-container animated fade-in-up-md">
     {% if page.addon-bg %}
-      <div  class="addon-bg" 
-            style=" background-image:url('{{ site.baseurl }}/images/addons/{{page.addon-bg}}');
+      <div  class="addon-bg"
+            style=" background-image:url('{{ site.baseurl }}/images/addons/{{ page.addon-bg }}');
                     bottom:{{page.addon-bg-bot}}px;
                     right:{{page.addon-bg-right}}px">
       </div>
