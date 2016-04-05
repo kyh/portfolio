@@ -12,7 +12,7 @@ tags:					[games, animation]
 <object id="ice-cream-game"
 	class="animated ease-in-out fade-in-default"
 	type="application/x-shockwave-flash"
-  data="/assets/iceCream.swf">
+  data="{{ "/assets/iceCream.swf" | prepend: site.baseurl }}">
 	<param name="quality" value="high">
 	<param name="bgcolor" value="#fff">
 	<param name="play" value="true">

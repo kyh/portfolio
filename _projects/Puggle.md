@@ -2,7 +2,7 @@
 layout:     post
 title:      Puggle
 date:       2014-06-07 11:21:29
-tags:		[games, physics engine]
+tags:       [games, physics engine]
 ---
 
 # Wildlife
