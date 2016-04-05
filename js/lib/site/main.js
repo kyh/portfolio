@@ -60,7 +60,6 @@
         $blackFade.click(closeMenu);
       }
 
-      if (!isMobile()) addLinkListener($mainMenu, $blackFade);
       $navMenu.click(openMenu);
     }
 
@@ -79,7 +78,6 @@
       menuOpen = 0;
 
       if (e) e.preventDefault();
-      if (!isMobile()) removeLinkListener($mainMenu, $blackFade);
 
       $body.removeClass('no-scroll');
       $mainMenu.removeClass('menu-open');
@@ -88,57 +86,16 @@
         $blackFade.addClass('display-hide');
       });
     }
-  
+
   }); //End document Ready
 
-  function toggleFade (element) {
+  function toggleFade(element) {
     if (element.hasClass('display-hide')) {
       element.removeClass('display-hide').removeClass('fade-out');
     } else {
       element.addClass('fade-out').one(transitionEnd, function(e) {
         element.addClass('display-hide');
       });
-    }
-  }
-
-  function addLinkListener($mainMenu, $blackFade){
-    var bgs = $blackFade.find('.fade-bg');
-    $mainMenu.find('ul.work')
-      .mouseover(function(e){
-        _updateBg(e, 'add', $blackFade, bgs);
-      })
-      .mouseout(function(e){
-        _updateBg(e, 'remove', $blackFade, bgs);
-      });
-  }
-
-  function _updateBg(e, type, $blackFade, bgs){
-    var i;
-    if (e.target.className === 'menu-link') {
-      for (i = 0; i < bgs.length; i++) {
-        if (e.target.innerText === bgs[i].dataset.title) {
-          updateBgActions[type]($(bgs[i]), $blackFade);
-        } 
-      }
-    }
-  }
-
-  var updateBgActions = {
-    add: function(bg, $blackFade){
-      bg.addClass('active');
-      $blackFade.addClass('opaque'); 
-    },
-    remove: function(bg, $blackFade){
-      bg.removeClass('active');
-      $blackFade.removeClass('opaque');
-    }
-  };
-
-  function removeLinkListener($mainMenu, $blackFade){
-    var bgs = $blackFade.find('.fade-bg');
-    $blackFade.removeClass('opaque');
-    for (var i = 0; i < bgs.length; i++) {
-      $(bgs[i]).removeClass('active');
     }
   }
 
