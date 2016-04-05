@@ -3,8 +3,8 @@
   <channel>
     <title>Kaiyu&#39;s Site</title>
     <description>Kaiyu Hsu is an interdisciplinary Designer and Front End Engineer experienced in Interaction Design, Art Direction, Branding and UI/UX.</description>
-    <link>portfolio.kyh.io/</link>
-    <atom:link href="portfolio.kyh.io/feed.xml" rel="self" type="application/rss+xml" />
+    <link>kyh.io/portfolio/</link>
+    <atom:link href="kyh.io/portfolio/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Santa Clause Parade</title>
@@ -13,8 +13,8 @@
 &lt;p&gt;In total there are less than 60 native fish species in the lake, but more than half of these are endemic.[19] The families Abyssocottidae (deep-water sculpins), Comephoridae (golomyankas or Baikal oilfish) and Cottocomephoridae (Baikal sculpins), and the subfamily Cottinae (part of the cottid family) are entirely restricted to the lake basin.&lt;/p&gt;
 </description>
         <pubDate>Sun, 08 Jun 2014 04:21:29 -0700</pubDate>
-        <link>portfolio.kyh.io/work/SantaParade/</link>
-        <guid isPermaLink="true">portfolio.kyh.io/work/SantaParade/</guid>
+        <link>kyh.io/portfolio/work/SantaParade/</link>
+        <guid isPermaLink="true">kyh.io/portfolio/work/SantaParade/</guid>
       </item>
     
       <item>
@@ -30,8 +30,8 @@ and &lt;a href=&quot;http://en.wikipedia.org/wiki/Textile_(markup_language)&quot
 &lt;p&gt;Learn more about Jekyll on their &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;website&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 09 Jun 2014 05:32:18 -0700</pubDate>
-        <link>portfolio.kyh.io/work/TEDxUofT/</link>
-        <guid isPermaLink="true">portfolio.kyh.io/work/TEDxUofT/</guid>
+        <link>kyh.io/portfolio/work/TEDxUofT/</link>
+        <guid isPermaLink="true">kyh.io/portfolio/work/TEDxUofT/</guid>
       </item>
     
       <item>
@@ -45,8 +45,8 @@ and &lt;a href=&quot;http://en.wikipedia.org/wiki/Textile_(markup_language)&quot
 &lt;/blockquote&gt;
 </description>
         <pubDate>Wed, 11 Jun 2014 08:31:19 -0700</pubDate>
-        <link>portfolio.kyh.io/work/TEDxToronto/</link>
-        <guid isPermaLink="true">portfolio.kyh.io/work/TEDxToronto/</guid>
+        <link>kyh.io/portfolio/work/TEDxToronto/</link>
+        <guid isPermaLink="true">kyh.io/portfolio/work/TEDxToronto/</guid>
       </item>
     
       <item>
@@ -119,8 +119,8 @@ hopefully sidestep this inconvenience.&lt;/p&gt;
 &lt;p&gt;Stay Tuned.&lt;/p&gt;
 </description>
         <pubDate>Sat, 10 Jan 2015 04:31:19 -0800</pubDate>
-        <link>portfolio.kyh.io/work/Slyce/</link>
-        <guid isPermaLink="true">portfolio.kyh.io/work/Slyce/</guid>
+        <link>kyh.io/portfolio/work/Slyce/</link>
+        <guid isPermaLink="true">kyh.io/portfolio/work/Slyce/</guid>
       </item>
     
   </channel>

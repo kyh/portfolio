@@ -1,7 +1,8 @@
 ;(function($) {
   'use strict';
 
-  var siteLocation  = (location.origin || location.protocol + "//" + location.host);
+  var baseURL       = '/portfolio';
+  var siteLocation  = (location.origin || location.protocol + "//" + location.host) + baseURL;
   var transitionEnd = 'webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend';
   var menuOpen      = 0;
 
@@ -41,7 +42,7 @@
           $container.html($content);
           toggleFade($whiteFade);
           initMenuEvents($content);
-
+          console.log(url, siteLocation);
           if (url === siteLocation && !isMobile()) launchSquare();
         }
       }
