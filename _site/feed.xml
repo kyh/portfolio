@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kaiyu&#39;s Site</title>
-    <description>Kaiyu Hsu is an interdisciplinary Designer and Front End Engineer experienced in Interaction Design, Art Direction, 			Branding and UI/UX.</description>
-    <link>kaiyu.rocks/portfolio-jekyll/</link>
-    <atom:link href="kaiyu.rocks/portfolio-jekyll/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Kaiyu Hsu is an interdisciplinary Designer and Front End Engineer experienced in Interaction Design, Art Direction, Branding and UI/UX.</description>
+    <link>portfolio.kyh.io/</link>
+    <atom:link href="portfolio.kyh.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Santa Clause Parade</title>
@@ -12,9 +12,41 @@
 
 &lt;p&gt;In total there are less than 60 native fish species in the lake, but more than half of these are endemic.[19] The families Abyssocottidae (deep-water sculpins), Comephoridae (golomyankas or Baikal oilfish) and Cottocomephoridae (Baikal sculpins), and the subfamily Cottinae (part of the cottid family) are entirely restricted to the lake basin.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 08 Jun 2014 07:21:29 -0400</pubDate>
-        <link>kaiyu.rocks/portfolio-jekyll/work/SantaParade/</link>
-        <guid isPermaLink="true">kaiyu.rocks/portfolio-jekyll/work/SantaParade/</guid>
+        <pubDate>Sun, 08 Jun 2014 04:21:29 -0700</pubDate>
+        <link>portfolio.kyh.io/work/SantaParade/</link>
+        <guid isPermaLink="true">portfolio.kyh.io/work/SantaParade/</guid>
+      </item>
+    
+      <item>
+        <title>TEDxUofT</title>
+        <description>&lt;p&gt;Jekyll is a tool for transforming your plain text into static websites and 
+blogs. It is simple, static, and blog-aware. Jekyll uses the 
+&lt;a href=&quot;http://docs.shopify.com/themes/liquid-basics&quot;&gt;Liquid&lt;/a&gt; templating
+language and has builtin &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;
+and &lt;a href=&quot;http://en.wikipedia.org/wiki/Textile_(markup_language)&quot;&gt;Textile&lt;/a&gt; support.&lt;/p&gt;
+
+&lt;p&gt;It also ties in nicely to &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Learn more about Jekyll on their &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;website&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 09 Jun 2014 05:32:18 -0700</pubDate>
+        <link>portfolio.kyh.io/work/TEDxUofT/</link>
+        <guid isPermaLink="true">portfolio.kyh.io/work/TEDxUofT/</guid>
+      </item>
+    
+      <item>
+        <title>TEDxToronto</title>
+        <description>&lt;h1 id=&quot;about&quot;&gt;About&lt;/h1&gt;
+
+&lt;p&gt;In addition to the annual, one-day conference, which draws a diverse and passionate array of speakers, performers, demos and audience members, TEDxToronto runs community programming throughout the year exploring issues with local relevance. Talks from the conference have been viewed millions of times around the globe and six of our speakers have been featured on TED.com, one of the world’s leading platforms for big ideas.&lt;/p&gt;
+
+&lt;blockquote&gt;
+    Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 11 Jun 2014 08:31:19 -0700</pubDate>
+        <link>portfolio.kyh.io/work/TEDxToronto/</link>
+        <guid isPermaLink="true">portfolio.kyh.io/work/TEDxToronto/</guid>
       </item>
     
       <item>
@@ -27,16 +59,16 @@ of a paragraph. The &lt;em&gt;same&lt;/em&gt; goes for italics and &lt;strong&gt
 works if &lt;del&gt;for some reason you need to update your post&lt;/del&gt;. For consistency&amp;rsquo;s sake,
 &lt;ins&gt;The same goes for insertions&lt;/ins&gt;, of course.&lt;/p&gt;
 
-&lt;h3 id=&quot;code,-with-syntax-highlighting&quot;&gt;Code, with syntax highlighting&lt;/h3&gt;
+&lt;h3 id=&quot;code-with-syntax-highlighting&quot;&gt;Code, with syntax highlighting&lt;/h3&gt;
 
 &lt;p&gt;Code blocks use the &lt;a href=&quot;http://ethanschoonover.com/solarized&quot;&gt;solarized&lt;/a&gt; theme. Both the light and
 dark versions are included, so you can swap them out easily. &lt;em&gt;Solarized Dark&lt;/em&gt; is the default.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;hello world&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;hello world&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h1 id=&quot;headings!&quot;&gt;Headings!&lt;/h1&gt;
+&lt;h1 id=&quot;headings&quot;&gt;Headings!&lt;/h1&gt;
 
 &lt;p&gt;They&amp;rsquo;re responsive, and well-proportioned (in &lt;code&gt;padding&lt;/code&gt;, &lt;code&gt;line-height&lt;/code&gt;, &lt;code&gt;margin&lt;/code&gt;, and &lt;code&gt;font-size&lt;/code&gt;).
 They also heavily rely on the awesome utility, &lt;a href=&quot;http://www.basscss.com/&quot;&gt;BASSCSS&lt;/a&gt;.&lt;/p&gt;
@@ -45,7 +77,7 @@ They also heavily rely on the awesome utility, &lt;a href=&quot;http://www.bassc
 
 &lt;p&gt;This allows your content to have the proper informational and contextual hierarchy. Yay.&lt;/p&gt;
 
-&lt;h3 id=&quot;there-are-lists,-too&quot;&gt;There are lists, too&lt;/h3&gt;
+&lt;h3 id=&quot;there-are-lists-too&quot;&gt;There are lists, too&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Apples&lt;/li&gt;
@@ -82,45 +114,13 @@ hopefully sidestep this inconvenience.&lt;/p&gt;
   &lt;footer&gt;&lt;cite title=&quot;Antoine de Saint-Exupéry&quot;&gt;Antoine de Saint-Exupéry&lt;/cite&gt;&lt;/footer&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;there&amp;#39;s-more-being-added-all-the-time&quot;&gt;There&amp;rsquo;s more being added all the time&lt;/h3&gt;
+&lt;h3 id=&quot;there-39-s-more-being-added-all-the-time&quot;&gt;There&amp;rsquo;s more being added all the time&lt;/h3&gt;
 
 &lt;p&gt;Stay Tuned.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 10 Jan 2015 07:31:19 -0500</pubDate>
-        <link>kaiyu.rocks/portfolio-jekyll/work/Slyce/</link>
-        <guid isPermaLink="true">kaiyu.rocks/portfolio-jekyll/work/Slyce/</guid>
-      </item>
-    
-      <item>
-        <title>TEDxToronto</title>
-        <description>&lt;h1 id=&quot;about&quot;&gt;About&lt;/h1&gt;
-
-&lt;p&gt;In addition to the annual, one-day conference, which draws a diverse and passionate array of speakers, performers, demos and audience members, TEDxToronto runs community programming throughout the year exploring issues with local relevance. Talks from the conference have been viewed millions of times around the globe and six of our speakers have been featured on TED.com, one of the world’s leading platforms for big ideas.&lt;/p&gt;
-
-&lt;blockquote&gt;
-    Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Wed, 11 Jun 2014 11:31:19 -0400</pubDate>
-        <link>kaiyu.rocks/portfolio-jekyll/work/TEDxToronto/</link>
-        <guid isPermaLink="true">kaiyu.rocks/portfolio-jekyll/work/TEDxToronto/</guid>
-      </item>
-    
-      <item>
-        <title>TEDxUofT</title>
-        <description>&lt;p&gt;Jekyll is a tool for transforming your plain text into static websites and 
-blogs. It is simple, static, and blog-aware. Jekyll uses the 
-&lt;a href=&quot;http://docs.shopify.com/themes/liquid-basics&quot;&gt;Liquid&lt;/a&gt; templating
-language and has builtin &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;
-and &lt;a href=&quot;http://en.wikipedia.org/wiki/Textile_(markup_language)&quot;&gt;Textile&lt;/a&gt; support.&lt;/p&gt;
-
-&lt;p&gt;It also ties in nicely to &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Learn more about Jekyll on their &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;website&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 09 Jun 2014 08:32:18 -0400</pubDate>
-        <link>kaiyu.rocks/portfolio-jekyll/work/TEDxUofT/</link>
-        <guid isPermaLink="true">kaiyu.rocks/portfolio-jekyll/work/TEDxUofT/</guid>
+        <pubDate>Sat, 10 Jan 2015 04:31:19 -0800</pubDate>
+        <link>portfolio.kyh.io/work/Slyce/</link>
+        <guid isPermaLink="true">portfolio.kyh.io/work/Slyce/</guid>
       </item>
     
   </channel>
