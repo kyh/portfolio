@@ -2,15 +2,17 @@
 layout:     	post
 title:      	Ice Cream Game
 date:       	2014-06-07 11:21:29
-bg-color:		rgb(144, 72, 155)
+bg-color:			rgb(144, 72, 155)
 header-class:	white
-tags:			[games, animation]
+tags:					[games, animation]
 ---
 
 ### Play the game
 
-<object id="ice-cream-game" class="animated ease-in-out fade-in-default" type="application/x-shockwave-flash" 
-  data="/assets/iceCream2.4.swf">
+<object id="ice-cream-game"
+	class="animated ease-in-out fade-in-default"
+	type="application/x-shockwave-flash"
+  data="/assets/iceCream.swf">
 	<param name="quality" value="high">
 	<param name="bgcolor" value="#fff">
 	<param name="play" value="true">

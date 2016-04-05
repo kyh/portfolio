@@ -42,7 +42,7 @@
           $container.html($content);
           toggleFade($whiteFade);
           initMenuEvents($content);
-          console.log(url, siteLocation);
+
           if (url === siteLocation && !isMobile()) launchSquare();
         }
       }
