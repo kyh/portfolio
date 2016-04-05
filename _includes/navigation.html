@@ -1,42 +1,43 @@
 {% assign portfolio_posts = site.portfolio | sort: 'date' %}
 {% assign project_posts = site.projects | sort: 'date' %}
 <nav id="main-menu">
-    <div class="menu-list">
-        <div class="menu-list-container">
-            <p class="menu-title">Work</p>
-            <ul class="work">
-                {% for post in portfolio_posts reversed %}
-                    <li>
-                        <a class="menu-link" href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a>
-                    </li>
-                {% endfor %}
-            </ul>
-        </div>
-        <div class="menu-list-container">
-            <p class="menu-title">Projects</p>
-            <ul class="projects">
-                {% for post in project_posts reversed %}
-                    <li>
-                        <a class="menu-link" href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a>
-                    </li>
-                {% endfor %}
-            </ul>
-        </div>
+  <div class="menu-list">
+    <div class="menu-list-container">
+      <p class="menu-title">Work</p>
+      <ul class="work">
+
+        {% for post in portfolio_posts reversed %}
+        <li>
+          <a class="menu-link" href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
     </div>
-    <div class="menu-bottom">
-        <div class="social-media">
-            <a class="git" href="https://github.com/tehkaiyu" target="_blank">
-                <i class="icon-github"></i>
-            </a>
-            <a class="dribbble" href="https://dribbble.com/tehKaiyu" target="_blank">
-                <i class="icon-dribbble"></i>
-            </a>
-            <a class="twitter" href="https://twitter.com/tehKaiyu" target="_blank">
-                <i class="icon-twitter"></i>
-            </a>
-            <a class="linkedin" href="http://ca.linkedin.com/in/kaiyuhsu" target="_blank">
-                <i class="icon-linkedin"></i>
-            </a>
-        </div>
+    <div class="menu-list-container">
+      <p class="menu-title">Side Projects</p>
+      <ul class="projects">
+        {% for post in project_posts reversed %}
+        <li>
+          <a class="menu-link" href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
     </div>
+  </div>
+  <div class="menu-bottom">
+    <div class="social-media">
+      <a class="git" href="https://github.com/tehkaiyu" target="_blank">
+        <i class="icon-github"></i>
+      </a>
+      <a class="dribbble" href="https://dribbble.com/tehKaiyu" target="_blank">
+        <i class="icon-dribbble"></i>
+      </a>
+      <a class="twitter" href="https://twitter.com/tehKaiyu" target="_blank">
+        <i class="icon-twitter"></i>
+      </a>
+      <a class="linkedin" href="http://ca.linkedin.com/in/kaiyuhsu" target="_blank">
+        <i class="icon-linkedin"></i>
+      </a>
+    </div>
+  </div>
 </nav>
