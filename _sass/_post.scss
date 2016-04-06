@@ -1,138 +1,144 @@
 .text-center{
-    text-align: center;
+  text-align: center;
 }
 
-.post-header-container{
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    &.white {
-        color: white;
-        a {
-            color: white;
-        }
+.post-header-container {
+  &.white {
+    color: white;
+    a {
+      color: white;
     }
+  }
 
-    .home-btn{
-        position: absolute;
-        top: 53px;
-        right: 140px;
-        z-index: 1;
-        a {
-            font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-            font-size: 0.7em;
-            font-weight: 900;
-            text-transform: uppercase;
-            letter-spacing: 0.7px;
-            margin: 0 7px;
-            padding: 3px 0;
-            text-decoration: none;
-            &:hover{
-                border-bottom: 1px solid #dddddf;
-            }
-        }
+  > .post-image {
+    position: absolute;
+    width: 100%;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation: fadeInZoomOut 15s cubic-bezier(.19,1,.22,1);
+            animation: fadeInZoomOut 15s cubic-bezier(.19,1,.22,1);
+  }
+
+  > .home-btn{
+    position: absolute;
+    top: 53px;
+    right: 140px;
+    z-index: 1;
+    a {
+      font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 0.7em;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      margin: 0 7px;
+      padding: 3px 0;
+      text-decoration: none;
+      &:hover{
+        border-bottom: 1px solid #dddddf;
+      }
     }
+  }
 }
 
 .post-header {
-    max-width: 1120px;
-    margin: 0 auto;
-    padding: 30px 65px;
-    max-height: 340px;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 30px 65px;
+  max-height: 340px;
 
-    h1 {
-        margin: 1.4em 0 0.4em;
-        font-weight: 900;
-        font-size: 3.4em;
-        letter-spacing: -3px;
-        max-width: 700px;
-        text-transform: capitalize;
-        line-height: 1.1;
-    }
-    
-    .post-tag-container{
-        margin-bottom: 30px;
-        .post-tag {
-            font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-            font-size: 0.6em;
-            font-weight: 900;
-            text-transform: uppercase;
-            letter-spacing: 0.7px;
-            padding: 3px 7px;
-            border: 1px solid;
-            border-radius: 3px;
-            margin-right: 5px;
-        }
-    }
+  h1 {
+    margin: 1.4em 0 0.4em;
+    font-weight: 900;
+    font-size: 3.4em;
+    letter-spacing: -3px;
+    max-width: 700px;
+    text-transform: capitalize;
+    line-height: 1.1;
+  }
 
-    .meta,
-    .post-meta {
-      width: auto;
-      font-size: 1rem;
-      font-weight: 300;
-      margin: 0;
-      padding: .25em 0;
-      color: #7a7a7a;
-      font-style: italic;
+  .post-tag-container{
+    margin-bottom: 30px;
+    .post-tag {
+      font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 0.6em;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      padding: 3px 7px;
+      border: 1px solid;
+      border-radius: 3px;
+      margin-right: 5px;
     }
+  }
+
+  .meta,
+  .post-meta {
+    width: auto;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0;
+    padding: .25em 0;
+    color: #7a7a7a;
+    font-style: italic;
+  }
 }
 
 .post-content-container{
-    background: white; 
-    position: relative;
+  background: white;
+  position: relative;
     // top: 270px;
     min-height: calc(100vh - 270px);
-}
+  }
 
-.post-content {
+  .post-content {
     padding: 55px 65px 20px;
     max-width: 1120px;
     margin: 0 auto;
 
     .post-summary {
-        font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 1.1em;
-        color: #5C5C5C;
-        line-height: 2.2;
-        margin-bottom: 40px;
+      font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 1.1em;
+      color: #5C5C5C;
+      line-height: 2.2;
+      margin-bottom: 40px;
     }
 
     h1, h3 {
-        font-weight: 900;
-        font-size: 1.4em;
-        letter-spacing: -0.4px;
-        margin: 20px 0;
+      font-weight: 900;
+      font-size: 1.4em;
+      letter-spacing: -0.4px;
+      margin: 20px 0;
     }
 
     h3 {
-        font-size: 0.8em;
-        letter-spacing: 1px;
-        text-transform: uppercase;
+      font-size: 0.8em;
+      letter-spacing: 1px;
+      text-transform: uppercase;
     }
-    
+
     blockquote {
-        font-size: 1.85rem;
-        line-height: 1.5;
-        border-bottom: 1px solid #B5B5B5;
-        border-top: 1px solid #B5B5B5;
-        padding: 25px 50px;
-        margin: 1em 0;
+      font-size: 1.85rem;
+      line-height: 1.5;
+      border-bottom: 1px solid #B5B5B5;
+      border-top: 1px solid #B5B5B5;
+      padding: 25px 50px;
+      margin: 1em 0;
     }
 
     p {
-        font-size: 1.25em;
-        line-height: 1.45;
-        margin-bottom: 20px;
+      font-size: 1.25em;
+      line-height: 1.45;
+      margin-bottom: 20px;
     }
-}
+  }
 
 //---- Specific posts
 #ice-cream-game{
-    display: block;
-    width: 800px;
-    height: 600px;
-    margin: 30px 0;
+  display: block;
+  width: 800px;
+  height: 600px;
+  margin: 30px 0;
 
-    -webkit-animation-delay: 650ms;
-    animation-delay: 650ms;
+  -webkit-animation-delay: 650ms;
+  animation-delay: 650ms;
 }
